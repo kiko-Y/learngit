@@ -46,5 +46,6 @@
 	
 	断开远程库连接
 
-
-
+12. git clone git@github.com:kiko-Y/learngit.git [dirname]
+	
+	克隆远程库到dirname中，不指定dirname就默认创建一个文件夹再克隆进去
