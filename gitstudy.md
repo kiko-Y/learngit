@@ -38,7 +38,11 @@
 	查看远程库
 
 
-10. git remote rm origin
+10. git push [-u] origin maste
+r
+	将master分支推送到远程库中，-u把本地的master和远程的master关联起来
+
+11. git remote rm origin
 	
 	断开远程库连接
 
