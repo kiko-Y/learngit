@@ -49,3 +49,23 @@
 12. git clone git@github.com:kiko-Y/learngit.git [dirname]
 	
 	克隆远程库到dirname中，不指定dirname就默认创建一个文件夹再克隆进去
+
+13. git branch
+	
+	查看所有分支
+
+14. git checkout -b "branchname" | git switch -c "branchname"
+	
+	创建分支并切换过去
+
+15. git checkout "branchname" | git switch "branchname"
+	
+	切换分支
+
+16. git branch -d "branchname"
+	
+	删除分支
+
+17. git merge "branchname"
+
+	将branchname合并到当前分支
