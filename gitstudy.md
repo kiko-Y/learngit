@@ -69,3 +69,27 @@
 17. git merge "branchname"
 
 	将branchname合并到当前分支
+
+18. git stash
+
+    保存当前的修改
+
+19. git stash pop
+
+    取出上一次的修改，并删除
+
+20. git stash list
+
+    查看保存的修改
+
+21. git stash apply stash@{id}
+
+    获取特定的保存的修改
+
+22. git stash drop stash@{id}
+
+    删除特定的保存的修改
+
+23. git cherry-pick "commit-id"
+
+    同步commit
